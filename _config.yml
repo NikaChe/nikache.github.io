@@ -1,2 +1,4 @@
 name: NikaChe
 markdown: kramdown
+
+theme: jekyll-theme-cayman
