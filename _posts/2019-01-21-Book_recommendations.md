@@ -7,6 +7,10 @@ date: 2019-01-21
  
   There is my short list of books, that I use:
   
+  \begin{itemize}
+  \item "Deep Learning" . Ian Goodfellow, Yoshua Bengio, Aaron Courville. Can find here: www.deeplearningbook.org
+  \end{itemize}
+  
    
  
  
