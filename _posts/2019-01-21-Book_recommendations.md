@@ -10,9 +10,7 @@ date: 2019-01-21
   <ul>
   <li> "Machine Learning: A Probabilistic Perspective". Kevin P. Murphy. The MIT Press. Cambridge, Massachusetts, London, England. 2012</li>
   <li> "Pattern Recognition and Machine Learning". Christopher M. Bishop. 2006 Springer</li>
-  <li></li>
-  <li></li>
-  <li>"Deep Learning" . Ian Goodfellow, Yoshua Bengio, Aaron Courville. Can find here: www.deeplearningbook.org </li>
+  <li>"Deep Learning" . Ian Goodfellow, Yoshua Bengio, Aaron Courville. Can find here: <a href='www.deeplearningbook.org'> www.deeplearningbook.org </a> </li>
   </ul>
   
    
