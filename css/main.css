@@ -4,13 +4,11 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.5em;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    font-size: 1.5em;
     display: inline;
     margin-right: 20px;
 }
@@ -43,4 +41,5 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    font-size: 1.5em;
 }
