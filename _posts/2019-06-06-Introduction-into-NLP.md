@@ -21,3 +21,13 @@ I start with one important part for machine learning, that often can be more imp
   <li>Stemmatisation</li>
   <li>Tokanisation </li>
  </ul>
+
+And there are few etapes in preprocessing, that I found useful in case of my data:
+
+<ul>
+ <li>If your data in other latin language then English, try to change special characters for the standard. Let me give you an example, In french we have è;é;à etc. that I changed for e,e,a consequently. </li>
+ <li></li>
+ <li></li>
+ <li></li>
+ 
+</ul>
