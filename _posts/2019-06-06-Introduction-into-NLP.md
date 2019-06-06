@@ -25,9 +25,14 @@ I start with one important part for machine learning, that often can be more imp
 And there are few etapes in preprocessing, that I found useful in case of my data:
 
 <ul>
- <li>If your data in other latin language then English, try to change special characters for the standard. Let me give you an example, In french we have è;é;à etc. that I changed for e,e,a consequently. </li>
- <li></li>
- <li></li>
- <li></li>
- 
+ <li>If your data in other latin language then English, try to change special characters for the standard. Let me give you an example, In french we have è,é,à etc. that I changed for e,e,a consequently. </li>
+ <li>It is possible to delete all numbers. Often it's a personal data, that has no impact in definition of the topic of text</li>
+ <li>Next step, to use NER (Named-Entity Recognition) to define personal names, locations, name of organisations. Delete some of that objects</li>
+
 </ul>
+  So we know the possible etapes for text data preprocessing. Now, we can discuss which are good to use in the particular case, depending on methodes, that we want to implement.
+  
+  I found significant improvement of the results, using every etape for preparation of data for LDA (Latent Dirichlet Allocation).
+  In the other side, after studying the principe of word embedings (word2vec and based on its fasttext, doc2vec and Glove), I made the conclusion, that etapes that suppose deleting of some words (stopwords, frequent and rare words etc.) , stemmatisation, lemmatisation can be even harmful. THe reason is that they use neural networks to train the word vectors, so the bigger vocabulary is, the better results. Also by their architecture, if the word is used to often in different contexts, the method gives it very small weights, so they don't play a role in the learning.
+  
+  In next posts, we will dive into most populars methods for topic modeling
