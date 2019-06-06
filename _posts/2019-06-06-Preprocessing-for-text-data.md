@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction into NLP"
+title: "Preprocessing for text data"
 date: 2019-06-06
 ---
 
