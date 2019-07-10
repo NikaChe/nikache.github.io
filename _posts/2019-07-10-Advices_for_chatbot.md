@@ -3,12 +3,19 @@ layout: post
 title: "Advices for chatbot"
 date: 2019-07-10
 ---
-- Start from dafining the goal of bot and what you need to achieve it
+- Start from defining the goal of bot and what you need to achieve it
 - Include small talk 
-- For each intent more then 50 examples
-- Don't tag every word in sentence
-- Don't write example, that are only entities
+- For each intent write more then 50 examples
+- Don't tag as entity every word in sentence
+- Don't write sentences, that are only entities
 - 
+
+Entities extraction for chatbot RASA. Ways:
+
+- Duckling. Duckling is a rule-based entity extraction library developed by Facebook
+- CRFEntityExtractor. Extract entities defined in examples. Good for cases with a lot of date
+- SpacyExtractor. Extract PER, ORG and MISC (for French), based on pretrained entities, so can be good if there is no much data
+
 
 
 References:
